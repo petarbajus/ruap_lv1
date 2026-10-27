@@ -1,0 +1,20 @@
+{
+  "izvor": "Open-Meteo Historical Weather API",
+  "adresa": "https://archive-api.open-meteo.com/v1/archive",
+  "model": "era5",
+  "licenca": "CC BY 4.0",
+  "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+  "razdoblje_utc": [
+    "2024-01-01",
+    "2024-01-07"
+  ],
+  "promjene": "Odabrani su Osijek, Zagreb i Split te satne varijable za tjedan 1.–7. siječnja 2024. Liste iz hourly spojene su u tablicu sa stupcem location.",
+  "polja": {
+    "location": "Naziv traženog grada.",
+    "time_utc": "Vremenski zapis (iso8601), zona UTC.",
+    "temperature_2m": "Temperatura zraka na 2 m, °C.",
+    "relative_humidity_2m": "Relativna vlažnost na 2 m, %.",
+    "precipitation": "Količina oborine u prethodnom satu, mm.",
+    "wind_speed_10m": "Brzina vjetra na 10 m, km/h."
+  }
+}
